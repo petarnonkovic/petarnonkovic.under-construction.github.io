@@ -41,34 +41,31 @@ header {
 
 .logo-text {
   font-weight: bolder;
-  font-size: 2.3rem;
+  font-size: 2rem;
   margin-top: -20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: rgb(3, 57, 108);
 }
 
 main {
-  color: tomato;
+  color: deepskyblue;
+  text-align: center;
 }
 
 main h2 {
-  font-size: 1.8rem;
-}
-
-main h3 {
-  font-size: 1.3rem;
-  text-align: center;
-  color: #666;
-  margin: 50px auto 5px;
+  font-size: 2.5rem;
 }
 
 .social {
   display: flex;
   flex-flow: row nowrap;
-  margin-top: 10px;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 
-.social .social-icon {
+.social .social-icon img {
+  width: 24px;
+  height: 24px;
   margin: 0 10px;
 }
 
@@ -84,5 +81,15 @@ main h3 {
 
   header .logo-text {
     margin-top: 100px;
+    text-align: center;
+  }
+
+  main h2 {
+    font-size: 3rem;
+  }
+
+  .social .social-icon img {
+    width: 48px;
+    height: 48px;
   }
 }
