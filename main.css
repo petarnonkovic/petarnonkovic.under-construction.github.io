@@ -31,7 +31,6 @@ header {
 
 .logo-img {
   margin: 0 auto;
-  /* flex: 1 1 auto; */
 }
 
 .logo {
@@ -53,14 +52,14 @@ main {
 }
 
 main h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 main h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
   color: #666;
-  margin: 50px auto 10px;
+  margin: 50px auto 5px;
 }
 
 .social {
