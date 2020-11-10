@@ -4,6 +4,7 @@
   "description": "Example page for under construction",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/petarnonkovic/petarnonkovic.under-construction.github.io/issues"
   },
-  "homepage": "https://github.com/petarnonkovic/petarnonkovic.under-construction.github.io#readme"
+  "homepage": "https://github.com/petarnonkovic/petarnonkovic.under-construction.github.io#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }

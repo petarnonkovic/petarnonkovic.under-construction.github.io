@@ -1,0 +1,89 @@
+/* Resets */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100%;
+  min-width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.logo-img {
+  margin: 0 auto;
+  /* flex: 1 1 auto; */
+}
+
+.logo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.logo-text {
+  font-weight: bolder;
+  font-size: 2.3rem;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  color: rgb(3, 57, 108);
+}
+
+main {
+  color: tomato;
+}
+
+main h2 {
+  font-size: 2rem;
+}
+
+main h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #666;
+  margin: 50px auto 10px;
+}
+
+.social {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 10px;
+}
+
+.social .social-icon {
+  margin: 0 10px;
+}
+
+.social .social-icon:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    flex-flow: row nowrap;
+    margin-top: 50px;
+  }
+
+  header .logo-text {
+    margin-top: 100px;
+  }
+}
