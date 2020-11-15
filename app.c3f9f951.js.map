@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/app.js"],"names":["document","addEventListener","console","log"],"mappings":"AAAAA,QAAQ,CAACC,gBAAT,CAA0B,kBAA1B,EAA8C,YAAM;AAClDC,EAAAA,OAAO,CAACC,GAAR,CAAY,SAAZ;AACD,CAFD","file":"app.c3f9f951.js","sourceRoot":"../src","sourcesContent":["document.addEventListener('DOMContentLoaded', () => {\n  console.log('success')\n})\n"]}

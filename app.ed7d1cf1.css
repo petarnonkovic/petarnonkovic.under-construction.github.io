@@ -26,7 +26,9 @@
   height: 100%;
   min-height: 100vh;
   font-family: 'Nunito', sans-serif, cursive;
-  background: url('/images/bg_small.jpg');
+  background: url('/bg_small.e9b4e149.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
@@ -56,7 +58,7 @@ header {
 
 .logo-holder .logo {
   height: 100%;
-  background: url('/images/logo_small.png');
+  background: url('/logo_small.a9e3519c.png');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -171,7 +173,7 @@ main .line {
 
 @media screen and (min-width: 48rem) {
   .app {
-    background: url('/images/bg.jpg');
+    background: url('/bg.43bfd8b0.jpg');
     background-position: 50% 50%;
   }
   /* Header */
@@ -216,3 +218,6 @@ main .line {
     margin-bottom: 2rem;
   }
 }
+
+
+/*# sourceMappingURL=/app.ed7d1cf1.css.map */
